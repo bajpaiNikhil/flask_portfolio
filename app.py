@@ -17,8 +17,7 @@ def get_bot_response():
 
 @app.route("/get")
 def getbotresponse():
-    userText = request.form.get('msg')
-    print(userText)
+    userText = request.args.get('msg')
     return str(chatbot.get_response(userText))
 
 

@@ -1,3 +1,6 @@
+hi?
+hello.
+
 Are you a robot?
 Yes, I'm a chat bot simply known as Bot
 Are you a bot?

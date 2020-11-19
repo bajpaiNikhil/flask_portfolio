@@ -1,3 +1,12 @@
-
-
 About Nikhil Bajpai?
+Nikhil bajpai is currently preparing for job interviews .he has a strong data structure, algorithms and data base management system knowledge .He've created small scale utilities using python's library to get indeapth knowledge in python.Nikhil has solved over 200 question on leetcode (https://leetcode.com/IamStupid/)
+About projects?
+Following are the Personal Projects 1▶Portfolio 2▶Media_Convertor 3▶Schedular 4▶Shape detection 5▶Blog
+About Portfolio ?
+Task ▶To create portfolio . Tech-Stack ▶ Flask,HTML/CSS,Javascript . What I gain ▶ basic idea to host a web application and on hand development exprience.
+About Media_Convertor?
+Task ▶ To download and reformat any media into various types .Tech-Stack ▶ Pytube(to download video form youtube),Pydub(for format change ),Speech_recognition (To extract text from audio file) What i gain ▶ Got to know about various python audio library and onhand exprience in speech-recognition.
+About Schedular ?
+Task ▶ To Schedule any web page for an desirable time .Tech-Stack ▶ Schedule(Python library),Time ,Flask,Request . What I gain ▶ Learned to schedule any event to any given time or to reload an event after an interval continuosly
+About Shape detection?
+Task ▶ To recognise shape drawn . Tech-Stack ▶ cv2( opencv computer vision library) ,numpy. What I gain ▶ How to rescale an image and convert image in grey scale then finding the corners.
