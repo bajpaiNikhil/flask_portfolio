@@ -7,7 +7,8 @@ Step 1.▶ Download flask using pip install flask.
 Step 2. Download chatbot using pip install chatterbot==1.0.4 .
 
 Step 3 creat 3 seprate folders below specified
-├── flaskr/
+
+├── flask
 │   ├── __init__.py
 │   ├──app.py(python file name)
 │   ├── resume.pdf
