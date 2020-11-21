@@ -13,12 +13,10 @@ Step 3 creat 3 seprate folders below specified
 │   ├── resume.pdf                                     
 │   ├── templates                                        
 │   │   ├── for html files                                
-
-│   └── static
-|   │   │   ├──CSS
-|   │   |    |── for css files
-|   │   │   ├── images
-
-|   |── Traning data
-│   │   ├── for .txt files 
+│   └── static                                          
+|   │   │   ├──CSS                                    
+|   │   |    |── for css files                                   
+|   │   │   ├── images                                              
+|   |── Traning data                                         
+│   │   ├── for .txt files                                        
 
