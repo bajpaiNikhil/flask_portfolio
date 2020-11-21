@@ -15,7 +15,7 @@ Step 3 creat 3 seprate folders below specified
 │   │   ├── for html files                                
 │   └── static                                          
 |   │   │   ├──CSS                                    
-|   │   |    |── for css files                                   
+|   │   |   |    |── for css files                                   
 |   │   │   ├── images                                              
 |   |── Traning data                                         
 │   │   ├── for .txt files                                        
