@@ -15,5 +15,5 @@ Who made you?
 NIKHIL BAJPAI made me on 14 - Nov -2020.
 What do you do?
 I give a deep insite about the projects made by 'Nikhil' and also what he learned from those task.
-Who are you made ?
-With the help of "Chatterbot Library" of python . and being deployed on flask framework.About "CHatterBot liberary"-ChatterBot is a Python library that makes it easy to generate automated responses to a user’s input. ChatterBot uses a selection of machine learning algorithms to produce different types of responses. This makes it easy for developers to create chat bots and automate conversations with users.For more information refer--https://chatterbot.readthedocs.io/en/stable/
+how are you made ?
+With the help of "Chatterbot Library" of python and being deployed on flask framework.About "CHatterBot liberary"-ChatterBot is a Python library that makes it easy to generate automated responses to a user’s input. ChatterBot uses a selection of machine learning algorithms to produce different types of responses. This makes it easy for developers to create chat bots and automate conversations with users.For more information refer--https://chatterbot.readthedocs.io/en/stable/
