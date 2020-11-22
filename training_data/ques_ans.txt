@@ -1,12 +1,12 @@
 About Nikhil Bajpai?
 Nikhil bajpai is currently preparing for job interviews .he has a strong data structure, algorithms and data base management system knowledge .He've created small scale utilities using python's library to get indeapth knowledge in python.Nikhil has solved over 200 question on leetcode (https://leetcode.com/IamStupid/)
 About projects?
-Following are the Personal Projects
- 1▶Portfolio
- 2▶Media_Convertor
- 3▶Schedular
- 4▶Shape detection
- 5▶Blog
+Following are the Personal Projects : 
+    1 Portfolio
+    2 Media_Convertor
+    3 Schedular
+    4 Shape detection
+    5 Blog
 About Portfolio ?
 Task
 ▶To create portfolio .

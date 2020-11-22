@@ -2,7 +2,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
 
-    <title>Nikhil bajpai </title>
+    <title>Nikhil Bajpai </title>
     <meta name="viweport" content="width=device_width,initil-scale=1,maximum-scale=1,minimum-scale=1"/>
 
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='CSS/default.css') }}">
     <link rel="shortcut icon" href="#">
 
-    <link id="theme-style" href="">
-    <script type = "text/javascript" src = "scripts.js"></script>
+    <link rel="stylesheet" id="theme-style" href="">
+    
 </head>
 <body>
     <section class="s1">
@@ -181,6 +181,7 @@
         </div>
     </section>
     <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+    <script type = "text/javascript" src = "{{ url_for('static', filename='scripts.js') }}"></script>
     <script>
 
         console.log("I'm a !Stupid not here")
@@ -198,8 +199,8 @@
         for (var i=0; themeDots.length > i; i++){
             themeDots[i].addEventListener('click', function(){
                 let mode = this.dataset.mode
-                console.log('Option clicked:', mode)
-                //setTheme(mode)
+                console.log('Option clicked:', mode);
+                setTheme(mode);
             })
         }
 
@@ -208,6 +209,7 @@
                 document.getElementById('theme-style').href ="{{url_for('static',filename='CSS/default.css')}}"
             }
             if(mode == 'blue'){
+                console.log('inside blue--');
                 document.getElementById('theme-style').href ="{{url_for('static',filename='CSS/blue.css')}}"
             }
             if(mode == 'green'){

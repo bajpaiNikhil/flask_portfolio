@@ -1,5 +1,5 @@
 from flask import Flask,render_template,send_file,request
-#from chatbot import chatbot
+from chatbot import chatbot
 app=Flask(__name__)
 
 @app.route('/')
@@ -19,14 +19,14 @@ def form():
     Message = request.form.get("Message")
     return  render_template("form.html", Name=Name,Email=Email,Message=Message)
 
-# @app.route("/")
-# def get_bot_response():
-#     return render_template("MoreAboutMe.html")
+@app.route("/MoreAboutMe")
+def get_bot_response():
+    return render_template("MoreAboutMe.html")
 #
-# @app.route("/get")
-# def getbotresponse():
-#     userText = request.args.get('msg')
-#     return str(chatbot.get_response(userText))
+@app.route("/get")
+def getbotresponse():
+    userText = request.args.get('msg')
+    return str(chatbot.get_response(userText))
 
 
 
