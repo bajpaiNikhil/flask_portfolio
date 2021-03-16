@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Bot</title>
+  <link rel="icon" type="image/ico" href="{{ url_for('static', filename='images/favicon.ico') }}">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -32,7 +33,17 @@
 
           <div class="msg-text">
             Hi, I'm a Bot ! Go ahead and send me a message to know more about "Nikhil Bajpai". 😄 simply type About followed by your question .
-            you can start by typing "About Nikhil Bajpai?".
+            you can start by typing "About Nikhil Bajpai?".<br>
+            About projects?<br>
+            About Portfolio?<br>
+            About Media_Convertor?<br>
+            About Schedular?<br>
+            About Shape detection?<br>
+            About ButtonCapture?<br>
+            About QrCode creator?<br>
+            Question about bot<br>
+            how are you(chatBOt) made?
+            The bot is currently being trained .There is some ambiguity in response
           </div>
         </div>
       </div>
@@ -52,8 +63,6 @@
     const msgerInput = get(".msger-input");
     const msgerChat = get(".msger-chat");
 
-
-    // Icons made by Freepik from www.flaticon.com
     const BOT_IMG = "https://image.flaticon.com/icons/svg/327/327779.svg";
     const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
     const BOT_NAME = "Bot";
@@ -115,9 +124,6 @@
 
       return `${h.slice(-2)}:${m.slice(-2)}`;
     }
-
-
-
   </script>
 
 </body>

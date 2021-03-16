@@ -21,16 +21,16 @@ for (var i=0; themeDots.length > i; i++){
 
 function setTheme(mode){
 	if(mode == 'light'){
-		document.getElementById('theme-style').href ="{{url_for('static',filename='CSS/default.css')}}"
+		document.getElementById('theme-style').src ="{{url_for('static',filename='CSS/default.css')}}"
 	}
 	if(mode == 'blue'){
-		document.getElementById('theme-style').href ="{{url_for('static',filename='CSS/blue.css')}}"
+		document.getElementById('theme-style').src ="{{url_for('static',filename='CSS/blue.css')}}"
 	}
 	if(mode == 'green'){
-		document.getElementById('theme-style').href="{{ url_for('static',filename='CSS/green.css')}}"
+		document.getElementById('theme-style').src="{{ url_for('static',filename='CSS/green.css')}}"
 	}
 	if(mode == 'purple'){
-		document.getElementById('theme-style').href="{{url_for('static',filename='CSS/purple.css')}}"
+		document.getElementById('theme-style').src="{{url_for('static',filename='CSS/purple.css')}}"
 	}
 	localStorage.setItem('theme', mode)
 }
